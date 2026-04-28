@@ -1,4 +1,3 @@
-<img width="531" height="142" alt="image" src="https://github.com/user-attachments/assets/6250c08c-c25c-45cb-bfd8-5c4f6aeb8c47" /># Android_Employee_Payroll_Management_System
 Road Accident Analysis & Prediction Using Weather Data This project aims to analyze and predict road accidents across the United States using weather and environmental data. It includes data engineering, machine learning, deep learning, and business intelligence components to provide meaningful insights and predictions.
 
 📌 Project Overview Every year, thousands of road accidents occur due to changing weather conditions and environmental factors. By analyzing data from the US Accidents (2016–2021) dataset, this project explores patterns, builds predictive models, and visualizes findings using Power BI.
