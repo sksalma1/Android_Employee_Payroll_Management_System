@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#E6E6FA">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginBottom="12dp"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#800080" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#800080" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:backgroundTint="#800080"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No account? Register"
+        android:textColor="#800080"
+        android:paddingTop="16dp" />
+</LinearLayout>

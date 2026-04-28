@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtEmpId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee ID"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtDesignation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Designation"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtTotalDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Days"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtSalaryPerDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salary Per Day"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtWorkedDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Worked Days"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtAllowances"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Allowances"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtDeductions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Deductions"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtNetSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Net Salary (Calculated)"
+            android:inputType="numberDecimal"
+            android:enabled="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnCalculateSalary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Calculate"
+                android:backgroundTint="#2196F3"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnAddEmp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Save"
+                android:backgroundTint="#2196F3"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" />
+
+    </LinearLayout>
+</ScrollView>
